@@ -48,7 +48,8 @@ def using_concat(my_favourite_things, more_favs)
   all_my_favs = my_favourite_things.concat(more_favs)
 end
 
-def using_delete
+def using_concat
+  all_my_favs.concat
 end
 
 
