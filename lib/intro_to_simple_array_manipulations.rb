@@ -45,7 +45,11 @@ end
 def using_concat(my_favourite_things, more_favs)
   my_favourite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["sports cars", "flatiron school"]
-  all_my_favs = my_favourite_things.concat(more_favs)(2)
+  all_my_favs = my_favourite_things.concat(more_favs)
+end
+
+def using_concat(my_favourite_things)
+  my_favourite_things.concat(more_favs)
 end
 
 
